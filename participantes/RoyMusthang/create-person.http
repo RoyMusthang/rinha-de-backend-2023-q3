@@ -1,0 +1,10 @@
+### Teste de criação de pessoa
+POST http://localhost:9999/pessoas
+Content-Type: application/json
+
+{
+  "apelido": "josue",
+  "nome": "Josue Vitor",
+  "nascimento": "1990-05-21",
+  "stack": ["Go", "Node"]
+}
